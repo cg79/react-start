@@ -1,0 +1,13 @@
+.user-item {
+  color: black;
+  .user-edit{
+    display: none;
+  }
+
+  &:hover{
+    color: green;
+    .user-edit{
+      display: inline-block;
+    }
+  }
+}
